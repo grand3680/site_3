@@ -1,0 +1,43 @@
+.about_us {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.about_us_img {
+    float: left;
+    padding: 20px;
+}
+
+.about_us_img img {
+    width: 618px;
+    height: 429px;
+}
+
+.about_us_text {
+    padding: 100px;
+}
+
+.about_us_title {
+    color: black;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.about_us_txt {
+    color: black;
+    word-wrap: break-word;
+    width: 400px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+
+.about_us_learn_more {
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+}

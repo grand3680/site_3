@@ -1,0 +1,68 @@
+.DECOR_img img {
+    width: 647px;
+    height: 427px;
+}
+
+.DECOR {
+    display: flex;
+    margin-top: 200px;
+    text-align: end;
+    justify-content: center;
+}
+
+.content_decor h3 {
+    font-size: 50px;
+    color: black;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin: 100px 100px 25px 0px;
+}
+
+.DECOR_img {
+    float: left;
+    padding-right: 160px;
+}
+
+.content_decor {
+    float: right;
+    padding: 10px;
+}
+
+.content_decor a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    margin-right: 100px;
+    transition: all 0.5;
+}
+
+.content_decor a:hover {
+    color: grey;
+}
+
+.content_decor p:not(p:last-child) {
+    width: 300px;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-right: 100px;
+    line-height: 30px;
+}
+
+.content_decor p:last-child {
+    font-size: 35px;
+    color: black;
+    margin-top: 0px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.content_decor p:last-child::after {
+    content: ".";
+    font-size: 40px;
+    opacity: 0.5;
+    color: black;
+}

@@ -1,0 +1,19 @@
+.footer_content {
+    background: url(../../images/header_1.png);
+    width: auto;
+    min-height: 100px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_content a {
+    text-decoration: none;
+}
+
+.footer_content p {
+    color: white;
+    opacity: 0.4;
+}

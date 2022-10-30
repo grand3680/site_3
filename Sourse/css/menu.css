@@ -1,0 +1,47 @@
+.menu_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #0D0F0D;
+    display: none;
+    z-index: 500;
+    overflow-y: auto;
+    opacity: 0.9;
+}
+
+.menu_nav_home,
+.menu_nav_products,
+.menu_nav_about,
+.menu_logo {
+    position: relative;
+    display: block !important;
+    top: 0;
+    left: 0;
+}
+
+.menu_nav_home a p,
+.menu_nav_products a p,
+.menu_nav_about a p,
+.menu_logo a h3 {
+    font-size: 50px !important;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.menu_logo {
+    font-size: 100px;
+    margin-top: 150px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.ative {
+    display: inline !important;
+}
+
+.overflow {
+    overflow: hidden;
+}

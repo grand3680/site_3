@@ -1,0 +1,57 @@
+.videos_two {
+    background: url(../../images/video_backround.png);
+    background-size: cover;
+    min-height: 850px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.videos_two_text {
+    padding-right: 300px;
+}
+
+.videos_two_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border: white 2.5px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.videos_two_title {
+    color: #BEA67C;
+    font-size: 50px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    width: 550px;
+    font-family: sans-serif;
+    line-height: 50px;
+    margin: 200px 0px 50px 0px;
+}
+
+.videos_two_button img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.videos_two_txt {
+    font-size: 20px;
+    opacity: 0.8;
+    color: white;
+    word-wrap: break-word;
+    width: 460px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.videos_two_button p {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+}

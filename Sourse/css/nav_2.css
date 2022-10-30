@@ -1,0 +1,145 @@
+button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.navigation_button {
+    align-items: center;
+    display: inline-flex;
+    transform: rotate(90deg);
+}
+
+.navigation_2 {
+    margin-left: 100px;
+}
+
+.header_navigation_2 {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_counter {
+    color: #BEA67C;
+    font-size: 35px;
+    font-weight: 900;
+    margin-right: 40px;
+}
+
+.navigation_counter::before {
+    content: "";
+    float: left;
+    position: relative;
+    top: 25px;
+    right: 8px;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #BEA67C;
+}
+
+.navigation_buttons {
+    width: 5px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0px 15px;
+    background-color: #303030;
+}
+
+.navigation_buttons_ative {
+    background-color: #BEA67C;
+}
+
+.navigation_buttons:hover {
+    cursor: pointer;
+}
+
+.header_main {
+    margin-right: 250px;
+}
+
+.navigation_logo {
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: #BEA67C;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.learn_more {
+    border: 1px white solid;
+    min-width: 250px;
+    min-height: 50px;
+    margin-top: 25px;
+    transition: all 0.15s;
+}
+
+.learn_more:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.learn_more p {
+    color: white;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+.mouse {
+    margin-top: 65px;
+}
+
+.mouse img {
+    width: 20px;
+    height: 30px;
+    display: block;
+}
+
+.scroll {
+    transform: rotate(90deg);
+    display: inline-flex;
+    line-height: 10px;
+    position: relative;
+    right: 58px;
+    top: 85px;
+}
+
+.scroll p:first-child {
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    letter-spacing: -7px;
+    margin-right: 15px;
+    opacity: 0.6;
+}
+
+.scroll p:last-child {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    opacity: 0.4;
+}
+
+.header_txt {
+    margin-right: 100px;
+}
+
+@media (max-width: 1132px) {
+    .mouse,
+    .header_txt {
+        display: none;
+    }
+}
+
+.navigation_text {
+    color: #BEA67C;
+    opacity: 0.3;
+    transform: rotate(90deg);
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 15px;
+    font-weight: 900;
+}

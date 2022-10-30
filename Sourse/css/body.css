@@ -1,0 +1,11 @@
+a {
+    cursor: pointer;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    min-width: 1620px;
+}

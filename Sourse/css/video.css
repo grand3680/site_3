@@ -1,0 +1,46 @@
+.videos {
+    text-align: center;
+}
+
+.videos_text {
+    text-align: center;
+    justify-content: center;
+}
+
+.videos_title {
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 150px 0px 50px 0px;
+}
+
+.videos_txt {
+    font-size: 15px;
+    color: black;
+    opacity: 0.5;
+    word-spacing: 2.5px;
+    letter-spacing: 1px;
+}
+
+.videos_content {
+    display: flex;
+    justify-content: center;
+}
+
+.videos_content div {
+    margin: 50px;
+}
+
+.videos_content img {
+    width: 244px;
+    height: 244px;
+}
+
+.videos_content div p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
